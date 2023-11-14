@@ -83,7 +83,7 @@ if (!customElements.get('localization-form')) {
         if (searchValue) {
           this.querySelector('.popular-countries').style.display = "none";
         } else {
-          this.querySelector('.popular-countries').style.display = "block";
+          this.querySelector('.popular-countries').style.display = "grid";
         }
 
         this.querySelectorAll('.countries a').forEach((item) => {
